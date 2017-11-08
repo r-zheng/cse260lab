@@ -26,6 +26,7 @@ public class NonduplicateWords
 			
 			TreeSet<String> set = new TreeSet<String>(Arrays.asList(splitString));
 			System.out.print(set);
+			bufferedReader.close();
 		}
 		catch(IOException e)
 		{
